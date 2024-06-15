@@ -1,3 +1,4 @@
+
 async function handler(m, {usedPrefix, command}) {
   command = command.toLowerCase();
   this.anonymous = this.anonymous ? this.anonymous : {};

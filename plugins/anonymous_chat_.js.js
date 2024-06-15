@@ -1,3 +1,5 @@
+
+
 export async function before(m, {match}) {
   if (!m.chat.endsWith('@s.whatsapp.net')) {
     return !0;

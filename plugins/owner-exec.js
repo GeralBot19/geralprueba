@@ -9,7 +9,7 @@ const handler = async (m, _2, msg, pickRandom, isOwner ) => {
   const mention = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : false;
   const {conn, usedPrefix, noPrefix, args, groupMetadata, command, isROwner} = _2;
   if (!isROwner) return;
-  let _return; 
+  let _return;
   const name = conn.getName(m.sender);
   let _syntax = '';
   const _text = (/^=/.test(usedPrefix) ? 'return ' : '') + noPrefix;

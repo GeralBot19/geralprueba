@@ -9,7 +9,7 @@ import chalk from 'chalk';
 import mddd5 from 'md5';
 import ws from 'ws';
 
-/** 
+/**
  * @type {import('@whiskeysockets/baileys')}
  */
 const {proto} = (await import('@whiskeysockets/baileys')).default;
